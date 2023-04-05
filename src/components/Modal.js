@@ -1,11 +1,4 @@
-
-
 export default function Modal ({prod}){
-
-    return (
-      <div >
-          done {prod}
-        </div>
-    )
+  return (<>done { prod } </>)
 }
   
