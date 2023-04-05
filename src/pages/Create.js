@@ -12,7 +12,7 @@ function Create() {
 
 
   const addProduct = ()=>{
-    fetch('https://retoolapi.dev/TGFQg1/data', {
+    fetch('https://retoolapi.dev/kXWstu/data', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

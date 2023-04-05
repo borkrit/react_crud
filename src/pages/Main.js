@@ -1,22 +1,17 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Outlet } from 'react-router-dom';
-import ProductList from '../components/ProductList';
+import PersonList from '../components/PersonList';
 
 export default function Main() {
   return (
-    <div>
+    <>
       <Navbar/>
-
-
-    <h1> Home page</h1>
-
-    <ProductList />
-
-
-
-<Outlet/> 
-    </div>
+      <h1> Home page</h1>
+      <PersonList />
+    
+    <Outlet/>
+    </>
 
     
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 export default function Navbar() {
   return (
@@ -16,7 +16,6 @@ export default function Navbar() {
               <Link to='/create' > Create Post </Link>
           </li>
         </ul>
-
 
     </div>
   )
