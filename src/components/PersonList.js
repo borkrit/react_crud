@@ -24,12 +24,12 @@ export default function ProductList() {
 
   return (
     <div>
-        <h2>Persons list</h2>
+        <h2 className=''>Persons list</h2>
         <br/>
-        <div style={{display:'flex', flexWrap:'wrap', gap:'20px'}}> 
+        <div className="w-9/12 m-auto  bg-green-200 flex gap-2 flex-wrap center justify-center" > 
         {
         persons.map((person) => {
-           return  <div key={person.id} style={{width:'200px',padding:'10px', border:'1px solid black', borderRadius:'10px'}} >
+           return  <div key={person.id} className="w-1/5 p-2 border rounded-sm border-violet-600" >
           
             <Link to='/person' state={{person: {...person}}} >  {person.title} </Link>
             </div>

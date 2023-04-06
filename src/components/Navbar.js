@@ -3,8 +3,8 @@ import { Link, Outlet } from 'react-router-dom'
 
 export default function Navbar() {
   return (
-    <div>
-        <ul>
+    <div  >
+        <ul className='flex justify-around bg-orange-200'>
           <li>
               Logo
           </li>
