@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, Outlet } from 'react-router-dom'
+import { Admin } from 'react-admin';
 
 export default function Navbar() {
   return (
@@ -15,6 +16,8 @@ export default function Navbar() {
           <li>
               <Link to='/create' > Create Post </Link>
           </li>
+        
+          
         </ul>
 
     </div>
