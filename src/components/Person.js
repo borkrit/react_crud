@@ -13,7 +13,7 @@ export default function Person() {
         <Link to='/' > Home </Link> 
         <h1>{person.title}</h1>
         <p>{person.position}</p>
-        <img src={person.media} alt={person.title} />
+        <img src={person.pictures?.src} alt={person.title} />
     </>
   )
 }

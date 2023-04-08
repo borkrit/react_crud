@@ -14,7 +14,7 @@ export default function Navbar() {
 
           </li>
           <li>
-              <Link to='/create' > Create Post </Link>
+              <Link to='/admin' > Admin Page </Link>
           </li>
         
           
