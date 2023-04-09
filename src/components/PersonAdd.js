@@ -7,7 +7,9 @@ export default function PersonAdd() {
         <SimpleForm>
             <TextInput source='title' />
             <TextInput source='position' />
-        
+            <ImageInput source="pictures" label="Related pictures">
+                <ImageField source="src" title="title" />
+            </ImageInput>
         </SimpleForm>
     </Create>
   )
